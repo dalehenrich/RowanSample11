@@ -1,18 +1,16 @@
-# RowanSample11 - spec_0000
-Empty project with no packages
+# RowanSample11 - spec_0005
+Start with spec_0000. Add the class AbstractRowanSample11ParentClass1 with no methods. It is subclassed as part of the Bridge component in RowanSample9:spec_0069
 ```
 RwLoadSpecificationV2 {
-	#specName : 'spec_0000',
+	#specName : 'spec_0005',
 	#projectName : 'RowanSample11',
 	#gitUrl : 'git@github.com:dalehenrich/RowanSample11.git',
-	#revision : 'spec_0000',
+	#revision : 'spec_0005',
 	#projectSpecFile : 'rowan/project.ston',
 	#componentNames : [
 		'Core'
 	],
-	#customConditionalAttributes : [
-		'tests'
-	],
+	#customConditionalAttributes : [ ],
 	#platformProperties : {
 		'gemstone' : {
 			'allusers' : {
@@ -20,19 +18,21 @@ RwLoadSpecificationV2 {
 			}
 		}
 	},
-	#comment : 'Empty project with no packages'
+	#comment : 'Start with spec_0000. Add the class AbstractRowanSample11ParentClass1 with no methods. It is subclassed as part of the Bridge component in RowanSample9:spec_0069'
 }
 
 RwTestProjectLibraryIndexCard {
-	#name : 'index_0000',
-	#title : 'Empty project with no packages',
-	#specName : 'spec_0000',
-	#index : 0,
-	#derivedFrom : 'master',
-	#comment : '',
-	#rowanIssues : [ ],
+	#name : 'index_0005',
+	#title : 'Start with spec_0000. Add the class AbstractRowanSample11ParentClass1 with no methods. It is subclassed as part of the Bridge component in RowanSample9:spec_0069',
+	#specName : 'spec_0005',
+	#index : 5,
+	#derivedFrom : 'spec_0000',
+	#comment : 'jigsaw puzzle class relationships',
+	#rowanIssues : [
+		705
+	],
 	#gemstoneIssues : [ ],
-	#rowanSHA : '31f85f24'
+	#rowanSHA : 'f49c8823'
 }
 ```
 
