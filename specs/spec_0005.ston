@@ -1,0 +1,19 @@
+RwLoadSpecificationV2 {
+	#specName : 'spec_0005',
+	#projectName : 'RowanSample11',
+	#gitUrl : 'git@github.com:dalehenrich/RowanSample11.git',
+	#revision : 'spec_0005',
+	#projectSpecFile : 'rowan/project.ston',
+	#componentNames : [
+		'Core'
+	],
+	#customConditionalAttributes : [ ],
+	#platformProperties : {
+		'gemstone' : {
+			'allusers' : {
+				#defaultSymbolDictName : 'RowanSample9_1'
+			}
+		}
+	},
+	#comment : 'Start with spec_0000. Add the class AbstractRowanSample11ParentClass1 with no methods. It is subclassed as part of the Bridge component in RowanSample9:spec_0069'
+}
